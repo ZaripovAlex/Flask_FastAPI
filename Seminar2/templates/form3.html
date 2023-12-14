@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {% if rez %}
+    <div>
+        <p> {{ text }} = {{ rez }} </p>
+    </div>
+    {% endif %}
+
+    <form method=post>
+        <input type="number" name="num1">
+        <input type="text" name="symbol">
+        <input type="number" name="num2">
+        <input  type="submit" value="Вычислить">
+    </form>
+</body>
+</html>
