@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Music</title>
+</head>
+<body>
+    <h1>My Music</h1>
+    {% for music in music_list %}
+        <h2> {{ music.name }}</h2>
+        <p>{{ music.artist }}</p>
+        <p>{{ music.album }}</p>
+        <p>{{ music.year }}</p>
+        <hr>
+    {% endfor %}
+
+
+</body>
+
+</body>
+</html>
